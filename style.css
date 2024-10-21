@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(239, 244, 244) !important;
+}
+
+.cookie{
+    background-color: rgb(1, 137, 1);
+    height: 65px;
+}
+.cookie-content{
+    width: 95%;
+    height: 65px;
+}
+.cookie-content p{
+    font-size: 13px;
+    font-weight: bold;
+}
+.cookie-content p a{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.navbar-brand{
+    width: 210px;
+}
+.navbar-brand img{
+    width: 90%;
+}
+
+.nav-link{
+    color: gray !important;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+form{
+    font-size: 13px;
+    font-weight: 700;
+    gap:7px;
+}
+#search{
+    width: 200px;
+    height: 30px;
+}
+.b{
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    height: 30px;
+    width: 80px;
+    align-items: center;
+}
+.prep:hover{
+    background-color: rgb(239, 238, 238) !important;
+    cursor: pointer;
+}
+.cert{
+    width: 380px !important;
+}
+.cert1{
+    width: 380px !important;
+}
+.cert:hover{
+    background-color: rgb(239, 238, 238) !important;
+    cursor: pointer;
+}
+.topics:hover{
+    background-color: rgb(204, 204, 203);
+}
+.prepKits{
+    text-decoration: none;
+}
+.prepKits:hover{
+
+    text-decoration: underline;
+} 
+.footer{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* media queries */
+@media (max-width:992px){
+    form{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px){
+    .prep{
+        width: 100% !important;
+    }
+    
+    
+}
+@media (max-width:800px){
+    .cert{
+        width: 100% !important;
+    }
+    
+}
